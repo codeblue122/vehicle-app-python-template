@@ -63,3 +63,5 @@ ENV PATH="/dist:$PATH"
 LABEL org.opencontainers.image.source="https://github.com/eclipse-velocitas/vehicle-app-python-template"
 
 CMD ["./run-exe"]
+CMD ["/app"]
+
